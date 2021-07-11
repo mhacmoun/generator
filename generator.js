@@ -3,6 +3,6 @@ const secondarray = ["have a good", "have a wonderfull", "have a nice", "have a 
 const thirdarray = ["week", "day", "holiday", "weekend"];
 
 
-const generated_inspirational_message = firstarray[Math.floor(Math.random() * "3")] + " " + secondarray[Math.floor(Math.random() * "3")] + " " + thirdarray[Math.floor(Math.random() * "3")];
+const generated_inspirational_message = firstarray[Math.floor(Math.random() * "4")] + " " + secondarray[Math.floor(Math.random() * "4")] + " " + thirdarray[Math.floor(Math.random() * "4")];
 
 console.log(generated_inspirational_message);
